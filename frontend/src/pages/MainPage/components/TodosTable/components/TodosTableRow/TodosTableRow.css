@@ -1,0 +1,23 @@
+.todos-table td {
+    overflow: hidden;
+}
+
+.todos-table__row {
+    text-align: center;
+    position: relative;
+}
+
+.change-status-button {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.row-wrapper {
+    position: relative;
+}
+
+.edit-text-form {
+    position: absolute;
+    top: 0;
+}

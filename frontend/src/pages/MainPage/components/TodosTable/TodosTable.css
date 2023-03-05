@@ -1,0 +1,10 @@
+.todos-table {
+    width: 80%;
+    max-width: 960px;
+    border: 1px solid;
+    table-layout: fixed;
+}
+
+.todos-table th {
+    overflow: hidden;
+}

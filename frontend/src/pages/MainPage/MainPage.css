@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 80%;
+    max-width: 960px;
+}
+
+.add-todo-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.todo-header__nav {
+    width: 80%;
+    height: 40px;
+    max-width: 960px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
