@@ -18,7 +18,9 @@ services:
   app:
     depends_on:
       - mysql
-    build: ./backend/Dockerfile
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
     restart: unless-stopped
     ports:
       - "8000:8000"
@@ -36,7 +38,9 @@ services:
   front:
     depends_on:
       - app
-    build: ./frontend/Dockerfile
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
     restart: unless-stopped
     ports:
       - "3000:3000"
